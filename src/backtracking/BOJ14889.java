@@ -121,7 +121,7 @@ class BackTrack14889
 	 * (invariant: rem1 + rem2 + index == N-1)
 	 * if index == N-1, that means we reached a leaf node
 	 * int group1 <- shows which row/col are added in group1 (bitmap)
-	 * we will be making a tuple of these 4 integers and push it to a stack.
+	 * we will be making a tuple of these 5 integers and push it to a stack.
 	 */
 	void sol()
 	{
